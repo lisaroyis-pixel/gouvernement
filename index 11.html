@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fiches interactives — Gouvernement et citoyenneté</title>
+<style>
+:root{--ink:#263238;--muted:#667177;--line:#d8d5ce;--paper:#fff;--sage:#dfe8df;--sage-dark:#4f6c61;--sand:#eee5d5;--answer:#f2f7f3}
+*{box-sizing:border-box}
+body{margin:0;background:#f3f2ee;color:var(--ink);font-family:"Comic Neue","Trebuchet MS",Arial,sans-serif;font-size:17px}
+header{background:#fff;border-bottom:1px solid var(--line);padding:24px 20px 18px}
+.wrap{max-width:1100px;margin:auto}
+h1{margin:0 0 8px;font-size:clamp(28px,4vw,42px)}
+.subtitle{color:var(--muted);margin:0 0 16px}
+nav{display:flex;gap:8px;flex-wrap:wrap}
+button{font:inherit;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:10px;padding:10px 14px;cursor:pointer}
+.nav-btn.active{background:var(--sage);border-color:#a9bba9;font-weight:700}
+.answer-btn,.show-all{border-color:#9fb3a7;color:#315648;font-weight:700}
+main{max-width:1100px;margin:26px auto;padding:0 20px 48px}
+.fiche{display:none}.fiche.active{display:block}
+.fiche-header{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:16px 16px 0 0;padding:20px 22px 14px}
+.eyebrow{font-size:14px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:5px}
+h2{font-size:clamp(24px,3vw,34px);margin:0;line-height:1.15}
+.instruction{background:var(--sand);border:1px solid var(--line);border-top:0;padding:15px 22px;font-weight:700}
+.questions{background:#fff;border:1px solid var(--line);border-top:0;border-radius:0 0 16px 16px;padding:18px 22px 22px}
+.question{border-bottom:1px solid var(--line);padding:18px 0}.question:last-child{border-bottom:0}
+.qtext{font-size:18px;font-weight:700;line-height:1.4;margin-bottom:12px}
+.answer{margin-top:12px;background:var(--answer);border-left:5px solid var(--sage-dark);border-radius:8px;padding:14px 16px;line-height:1.5}
+[hidden]{display:none!important}
+@media(max-width:700px){.fiche-header{flex-direction:column}.show-all{width:100%}.nav-btn{flex:1 1 calc(33% - 8px)}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<h1>Fiches interactives — Gouvernement et citoyenneté</h1>
+<p class="subtitle">Choisis une fiche, puis clique sur « Afficher la réponse » pour voir la réponse directement sous la question.</p>
+<nav>
+<button class="nav-btn active" data-target="f1">Fiche 1</button>
+<button class="nav-btn" data-target="f2">Fiche 2</button>
+<button class="nav-btn" data-target="f3">Fiche 3</button>
+<button class="nav-btn" data-target="f4">Fiche 4</button>
+<button class="nav-btn" data-target="f5">Fiche 5</button>
+<button class="nav-btn" data-target="f6">Fiche 6</button>
+<button class="nav-btn" data-target="f7">Fiche 7</button>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="fiche active" id="f1">
+<div class="fiche-header"><div><div class="eyebrow">5e année — Domaine B</div><h2>Fiche 1 — Le gouvernement et les trois ordres</h2></div><button class="show-all">Afficher toutes les réponses</button></div>
+<div class="instruction">Lis les pages 10 à 11 dans ton manuel pour trouver les réponses aux questions.</div>
+<div class="questions">
+<div class="question"><div class="qtext">1. Qu’est-ce qu’un gouvernement?</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Un gouvernement est un ensemble de personnes et d’institutions qui prennent des décisions pour une population.</div></div>
+<div class="question"><div class="qtext">2. Nomme les trois ordres de gouvernement et indique le chef et UNE responsabilité de chacun.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Fédéral : premier ministre du Canada — ex. passeports, armée, immigration. Provincial : premier ministre de l’Ontario — ex. santé, éducation. Municipal : maire ou mairesse — ex. déchets, bibliothèques, parcs locaux.</div></div>
+<div class="question"><div class="qtext">3. Écris F, P ou M : passeports, écoles, hôpitaux, bibliothèques, déchets, immigration.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Passeports : F • Écoles : P • Hôpitaux : P • Bibliothèques : M • Déchets : M • Immigration : F.</div></div>
+<div class="question"><div class="qtext">4. Donne un exemple d’un enjeu qui peut demander la collaboration de plus d’un ordre de gouvernement.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Exemple acceptable : l’immigration, ou un autre enjeu présenté en classe comme une responsabilité partagée.</div></div>
+</div></section>
+
+<section class="fiche" id="f2">
+<div class="fiche-header"><div><div class="eyebrow">5e année — Domaine B</div><h2>Fiche 2 — Communiquer et participer à la vie locale</h2></div><button class="show-all">Afficher toutes les réponses</button></div>
+<div class="instruction">Lis les pages 26 à 27 dans ton manuel pour trouver les réponses aux questions.</div>
+<div class="questions">
+<div class="question"><div class="qtext">1. Nomme les QUATRE façons de communication ou de participation présentées à la page 26.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Les élections, les séances du conseil, l’audience publique et le référendum.</div></div>
+<div class="question"><div class="qtext">2. Explique comment ces moyens permettent aux citoyens de participer.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Les élections permettent de choisir des représentants. Les séances du conseil permettent d’observer les décisions et parfois de s’exprimer. Une audience publique permet à la population de donner son opinion. Un référendum permet aux citoyens de voter sur une question importante.</div></div>
+<div class="question"><div class="qtext">3. Nomme TROIS médias utilisés par une administration pour communiquer avec la population.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Exemples : médias sociaux, site web officiel, bulletin d’information, journaux, radio, courriels.</div></div>
+<div class="question"><div class="qtext">4. Comment la technologie aide-t-elle les citoyens à participer?</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Elle permet de s’informer, de communiquer avec les élus, de suivre des réunions en ligne et de participer à des consultations.</div></div>
+</div></section>
+
+<section class="fiche" id="f3">
+<div class="fiche-header"><div><div class="eyebrow">5e année — Domaine B</div><h2>Fiche 3 — Poser de bonnes questions sur un enjeu</h2></div><button class="show-all">Afficher toutes les réponses</button></div>
+<div class="instruction">Lis les pages 28 à 29 dans ton manuel pour trouver les réponses aux questions.</div>
+<div class="questions">
+<div class="question"><div class="qtext">1. Écris un exemple de question factuelle, d’opinion et critique sur les déchets.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Factuelle : Combien d’incinérateurs y a-t-il? Opinion : Crois-tu qu’un incinérateur est une bonne solution? Critique : Quels sont les avantages et les inconvénients d’un incinérateur?</div></div>
+<div class="question"><div class="qtext">2. Donne UN avantage et UN inconvénient d’un incinérateur.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Avantages possibles : produit de l’énergie; réduit le volume des déchets. Inconvénients possibles : pollution atmosphérique; coût élevé.</div></div>
+<div class="question"><div class="qtext">3. Quelle solution te semble la plus utile pour réduire les déchets? Appuie ta réponse sur UN fait.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Réponse personnelle. La justification doit s’appuyer sur au moins un fait exact de la lecture.</div></div>
+</div></section>
+
+<section class="fiche" id="f4">
+<div class="fiche-header"><div><div class="eyebrow">5e année — Domaine B</div><h2>Fiche 4 — Agir pour changer quelque chose : la Loi Sabrina</h2></div><button class="show-all">Afficher toutes les réponses</button></div>
+<div class="instruction">Lis la page 38 dans ton manuel pour trouver les réponses aux questions.</div>
+<div class="questions">
+<div class="question"><div class="qtext">1. Quel problème la famille de Sabrina voulait-elle aider à régler?</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Le problème des allergies alimentaires graves à l’école.</div></div>
+<div class="question"><div class="qtext">2. Nomme TROIS actions utilisées pour influencer le gouvernement.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Écrire des lettres, faire signer des pétitions et parler aux médias.</div></div>
+<div class="question"><div class="qtext">3. Qui a présenté le projet de loi 3?</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Dave Levac.</div></div>
+<div class="question"><div class="qtext">4. Qui s’assure que les écoles appliquent la loi?</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Le personnel des écoles.</div></div>
+<div class="question"><div class="qtext">5. Propose UNE action citoyenne réaliste pour améliorer un petit enjeu de ton école ou de ta communauté.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Réponse personnelle. L’action doit être réaliste : écrire une lettre, lancer une pétition, participer à une consultation, etc.</div></div>
+</div></section>
+
+<section class="fiche" id="f5">
+<div class="fiche-header"><div><div class="eyebrow">5e année — Domaine B</div><h2>Fiche 5 — Gouvernance des Premières Nations, des Métis et des Inuit : partie 1</h2></div><button class="show-all">Afficher toutes les réponses</button></div>
+<div class="instruction">Lis les pages 44 à 47 dans ton manuel pour trouver les réponses aux questions.</div>
+<div class="questions">
+<div class="question"><div class="qtext">1. Explique ce que signifie « autonomie gouvernementale ».</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>C’est le droit et la capacité d’un peuple de prendre ses propres décisions et de se gouverner.</div></div>
+<div class="question"><div class="qtext">2. Donne un modèle ou une organisation pour les Premières Nations, les Métis et les Inuit.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Les réponses doivent correspondre aux organisations présentées dans la lecture, par exemple ITK, NAN, Chefs de l’Ontario, Nation Métisse ou UIO, selon les pages étudiées.</div></div>
+<div class="question"><div class="qtext">3. Donne UNE ressemblance et UNE différence entre deux modèles ou organisations.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Réponse variable, mais elle doit comparer deux exemples de la lecture avec une ressemblance et une différence exactes.</div></div>
+<div class="question"><div class="qtext">4. Pourquoi n’existe-t-il pas un seul modèle de gouvernance pour tous les peuples autochtones?</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Parce que les peuples, les territoires, les traditions, les besoins et les réalités ne sont pas tous les mêmes.</div></div>
+</div></section>
+
+<section class="fiche" id="f6">
+<div class="fiche-header"><div><div class="eyebrow">5e année — Domaine B</div><h2>Fiche 6 — Gouvernance autochtone : partie 2</h2></div><button class="show-all">Afficher toutes les réponses</button></div>
+<div class="instruction">Lis les pages 48 à 51 dans ton manuel pour trouver les réponses aux questions.</div>
+<div class="questions">
+<div class="question"><div class="qtext">1. Donne UN exemple de besoin ou de réalité d’une communauté présenté dans la lecture.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Réponse tirée des pages 48 à 51. L’exemple doit correspondre exactement à la lecture.</div></div>
+<div class="question"><div class="qtext">2. Explique pourquoi une gouvernance adaptée peut être importante.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Elle peut mieux répondre aux besoins, au territoire, aux traditions et aux réalités d’une communauté.</div></div>
+<div class="question"><div class="qtext">3. Nomme UNE responsabilité qu’un gouvernement autochtone peut avoir.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Réponse tirée des pages 48 à 51. Accepter une responsabilité exacte présentée dans la lecture.</div></div>
+<div class="question"><div class="qtext">4. Pourquoi des communautés différentes peuvent-elles avoir besoin de formes de gouvernance différentes?</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Parce que leurs territoires, leurs réalités, leurs besoins, leurs traditions et leurs priorités peuvent être différents.</div></div>
+<div class="question"><div class="qtext">5. Pourquoi est-il important de consulter une communauté autochtone avant une décision qui touche son territoire ou ses droits?</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>La consultation permet de comprendre les effets possibles, d’entendre la communauté concernée et de tenir compte de ses droits et intérêts.</div></div>
+</div></section>
+
+<section class="fiche" id="f7">
+<div class="fiche-header"><div><div class="eyebrow">5e année — Domaine B</div><h2>Fiche 7 — Droits, responsabilités et mini-enquête citoyenne</h2></div><button class="show-all">Afficher toutes les réponses</button></div>
+<div class="instruction">Utilise la fiche CIVIX sur les droits et responsabilités ainsi que les ressources étudiées en classe.</div>
+<div class="questions">
+<div class="question"><div class="qtext">1. Associe chaque droit à une responsabilité.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Exemples : voter → s’informer et participer; liberté d’expression → respecter les droits et opinions des autres; droit à l’éducation → participer et faire ses efforts; liberté de religion → respecter les croyances des autres.</div></div>
+<div class="question"><div class="qtext">2. Pourquoi les droits et les responsabilités vont-ils ensemble?</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Les droits protègent les personnes, tandis que les responsabilités aident chacun à respecter les droits des autres et à contribuer à la vie collective.</div></div>
+<div class="question"><div class="qtext">3a. Écris UNE question claire sur un enjeu gouvernemental ou citoyen.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Réponse personnelle. La question doit être claire et permettre une enquête.</div></div>
+<div class="question"><div class="qtext">3b. Présente deux perspectives et DEUX faits provenant de sources fiables.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Réponse variable. Les perspectives doivent être distinctes et les faits vérifiables.</div></div>
+<div class="question"><div class="qtext">3c. Quelle conclusion peux-tu tirer?</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Réponse variable. La conclusion doit être appuyée par les faits recueillis.</div></div>
+<div class="question"><div class="qtext">3d. Propose UNE action possible qu’un citoyen ou un gouvernement pourrait prendre.</div><button class="answer-btn">Afficher la réponse</button><div class="answer" hidden>Réponse variable. L’action doit être réaliste et liée à l’enjeu étudié.</div></div>
+</div></section>
+</main>
+
+<script>
+const nav=[...document.querySelectorAll('.nav-btn')];
+const fiches=[...document.querySelectorAll('.fiche')];
+nav.forEach(btn=>btn.addEventListener('click',()=>{
+  nav.forEach(b=>b.classList.toggle('active',b===btn));
+  fiches.forEach(f=>f.classList.toggle('active',f.id===btn.dataset.target));
+  window.scrollTo({top:0,behavior:'smooth'});
+}));
+document.querySelectorAll('.answer-btn').forEach(btn=>btn.addEventListener('click',()=>{
+  const answer=btn.nextElementSibling;
+  answer.hidden=!answer.hidden;
+  btn.textContent=answer.hidden?'Afficher la réponse':'Masquer la réponse';
+}));
+document.querySelectorAll('.show-all').forEach(btn=>btn.addEventListener('click',()=>{
+  const fiche=btn.closest('.fiche');
+  const answers=[...fiche.querySelectorAll('.answer')];
+  const show=answers.some(a=>a.hidden);
+  answers.forEach(a=>a.hidden=!show);
+  fiche.querySelectorAll('.answer-btn').forEach(b=>b.textContent=show?'Masquer la réponse':'Afficher la réponse');
+  btn.textContent=show?'Masquer toutes les réponses':'Afficher toutes les réponses';
+}));
+</script>
+</body>
+</html>
